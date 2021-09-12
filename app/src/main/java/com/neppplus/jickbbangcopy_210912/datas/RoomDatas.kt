@@ -14,6 +14,8 @@ class RoomDatas(
     fun getFormattedFloor() : String {
 
 
+//        양수 / 0 층 / -층에 따라 다른 층수로 가공.
+
         if (this.floor > 0) {
             return "${this.floor}층"
         }
