@@ -24,12 +24,14 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/priceTxt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="8,000가격"
                 android:textStyle="bold"
                 android:textColor="#FEA409"/>
             <TextView
+                android:id="@+id/addressAndFloorTxt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="동네, 층수"
@@ -37,6 +39,7 @@
                 android:textSize="13sp"
                 android:layout_marginTop="3dp"/>
             <TextView
+                android:id="@+id/descriptionTxt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="설명 자리" />
